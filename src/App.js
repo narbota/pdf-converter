@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <button>PDF converter</button>
+      <button className="btn" onClick={() => window.print()}
+      >PDF converter
+      </button>
     </div>
   );
 }
